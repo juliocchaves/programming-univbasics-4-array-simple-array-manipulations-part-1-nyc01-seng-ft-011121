@@ -1,4 +1,3 @@
-def using_push
-  ["array", "string"]
-  using_push.push("hash")
+def using_push(array, string)
+  array.push(string)
 end

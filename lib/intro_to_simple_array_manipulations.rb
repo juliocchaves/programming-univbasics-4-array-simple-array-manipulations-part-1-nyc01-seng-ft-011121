@@ -11,4 +11,9 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  
+  result = []
+  2.times do
+    result.unshift(array.pop)
+  end
+  result
+end
